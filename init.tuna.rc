@@ -107,6 +107,7 @@ on fs
 	chown bluetooth bluetooth /sys/class/rfkill/rfkill0/type
 
 # backlight
+	chmod 0666 /sys/class/backlight/s6e8aa0/brightness
 	chown system system /sys/class/backlight/s6e8aa0/brightness
 
 # leds
